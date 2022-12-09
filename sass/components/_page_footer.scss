@@ -1,0 +1,169 @@
+/* ______________FUTER______________ */
+
+/* styles footer */
+
+.footer {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer__container {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.logotipe--margin {
+    margin-bottom: 20px;
+}
+
+.logotipe__studio--color {
+    color: #FFFFFF;
+}
+
+.footer__contact {
+    font-style: normal;
+}
+
+.address>li:not(:last-child) {
+    padding-bottom: 9px;
+}
+
+.address__item {
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+    &:hover,
+    &:focus {
+            color: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
+
+
+.address__mail,
+.address__tel {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address__mail:hover,
+.address__mail:focus,
+.address__mail:active {
+    color: #2196F3;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address__tel:hover,
+.address__tel:focus,
+.address__tel:active {
+    color: #2196F3;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__title {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+.footer__icon {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    &:hover,
+    &:focus,
+    &:active {
+            background: #2196F3;
+            transition: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
+
+
+
+/* Стилі для форми футера */
+
+.footer__form {
+    margin-left: 23px;
+}
+
+
+
+.subscribe {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe__input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: #2F303A;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.icon-send {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    fill: #FFFFFF;
+}
+
+.subscribe__button {
+    margin-left: 12px;
+    padding-left: 28px;
+    padding-right: 62px;
+    max-width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Кінець стилів для форми футера */
+
+/* END styles footer */

@@ -1,0 +1,85 @@
+/* styles Features - Особливості */
+
+.portfolio__visually-hidden,
+.features__h2 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features__list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.features__item {
+    flex-basis: calc((100% - 90px)/4);
+}
+
+
+.features__list h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    line-height: 1.14;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.features__list p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    color: var(--color-body-second);
+}
+
+.features__icon {
+    display: flex;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+
+    background: #F5F4FA;
+    border-radius: 4px;
+
+}
+
+.features__icon-antenna {
+    display: flex;
+
+    fill: currentColor;
+}
+
+.features__icon-clock {
+    display: flex;
+
+    fill: currentColor;
+}
+
+.features__icon-diagram {
+    display: flex;
+
+    fill: currentColor;
+}
+
+.features__icon-astronaut {
+    display: flex;
+
+    fill: currentColor;
+}
+
+/* END styles Features - Особливості */

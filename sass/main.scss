@@ -1,0 +1,32 @@
+// Normalize end root
+@import './base/normalize';
+@import './utils/variabless';
+
+// Reset styles end base styles
+@import './base/reset';
+@import './base/base';
+
+//INDEX
+
+//Component Header
+@import './components/container';
+@import './components/page_header';
+@import './components/logotipe';
+@import './components/header-navigathion';
+
+// Component Main
+@import './components/cap';
+@import './components/modal';
+@import './components/features';
+@import './components/work';
+@import './components/team';
+@import './components/customers';
+
+//Component Footer
+
+@import "./components/page_footer";
+
+//PORTFOLIO
+
+@import './components/portfolio_filters';
+@import './components/portfolio_list';
