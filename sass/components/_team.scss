@@ -3,7 +3,6 @@
 .team {
     background: #F5F4FA;
     max-width: 1600px;
-    /* height: 708px; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -17,11 +16,25 @@
 }
 
 .team__list {
+    
     display: flex;
-    &>li:not(:last-child) {
-            margin-right: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        @media screen and (min-width:768px) {
+            flex-direction: row;
+            flex-wrap: wrap;
         }
-}
+    
+        @media screen and (min-width:1200px) {
+            display: flex;
+            
+                &>li:not(:last-child) {
+                    margin-right: 30px;
+                }
+        }
+    }
 
 
 

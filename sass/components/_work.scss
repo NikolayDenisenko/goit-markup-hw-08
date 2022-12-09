@@ -1,7 +1,19 @@
 /* styles work - Чим ми займаємося */
 
 .work {
-    padding-top: 0;
+padding-top: 0;
+
+    @media screen and (min-width:480px) {
+        display: none;
+    }
+    
+    @media screen and (min-width:768px) {
+        display: none;}
+        
+    @media screen and (min-width:1200px) {
+        display: block;
+        }
+    
 }
 
 .work__title {
