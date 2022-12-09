@@ -16,13 +16,25 @@
 }
 
 .features__list {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
+    
+
+
+
+    @media screen and (min-width:1200px) {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        
+    }
 }
 
 .features__item {
-    flex-basis: calc((100% - 90px)/4);
+    
+
+    @media screen and (min-width:1200px) {
+            flex-basis: calc((100% - 90px)/4);
+    
+        }
 }
 
 
