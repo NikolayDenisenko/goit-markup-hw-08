@@ -243,6 +243,11 @@ section {
   font-size: 26px;
   line-height: 1.1923076923;
 }
+@media screen and (min-width: 768px) {
+  .logotipe {
+    margin-right: auto;
+  }
+}
 @media screen and (min-width: 1200px) {
   .logotipe {
     display: -webkit-box;
@@ -1137,6 +1142,16 @@ section {
       flex-wrap: wrap;
   gap: 30px;
 }
+@media screen and (min-width: 768px) {
+  .customers__list {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 @media screen and (min-width: 1200px) {
   .customers__list {
     display: -webkit-box;
@@ -1203,6 +1218,22 @@ section {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+@media screen and (min-width: 768px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer__container {

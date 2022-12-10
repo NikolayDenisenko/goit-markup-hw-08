@@ -9,7 +9,9 @@
     font-size: 26px;
     line-height: calc(31/26);
 
-    @media screen and (min-width:768px) {}
+    @media screen and (min-width:768px) {
+        margin-right: auto;
+    }
     
     @media screen and (min-width:1200px) {
         display: flex;
