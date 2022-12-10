@@ -25,10 +25,7 @@
                 line-height: calc(16/14);
                 letter-spacing: 0.02em;
             
-                // &>li:not(:last-child) {
-                //     margin-right: 50px;
-                // }
-            
+                           
                 &:hover,
                 &:focus {
                     color: #2196F3;
@@ -37,6 +34,7 @@
     
         @media screen and (min-width:1200px) {
             display: flex;
+            flex-direction: row;
             margin-left: auto;
                 color: var(--color-body-second);
                 font-weight: 500;
@@ -53,6 +51,23 @@
                     color: #2196F3;
                 }
         }
+}
+
+.contact__link {
+    
+
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        
+        flex-direction: row;
+    }
+    
+    @media screen and (min-width:1200px) {
+        display: flex;
+        
+            flex-direction: row;
+    }
 }
 
 .contact__mail {
