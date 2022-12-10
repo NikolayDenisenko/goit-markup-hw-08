@@ -36,6 +36,11 @@
     border: none;
     border-radius: 50%;
     outline: none;
+
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+        }
 }
 
 @media (min-width: 768px) {
@@ -44,10 +49,7 @@
     }
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-    background-color: rgba(0, 0, 0, 0.1);
-}
+
 
 .menu-container {
     position: fixed;
@@ -56,11 +58,15 @@
     width: 100vw;
     height: 100vh;
     padding: 32px;
-    background-color: #3f51b5;
+    background: #FFFFFF;
     z-index: 999;
 
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
+}
+
+.menu__mobile-close:hover, .menu__mobile-close:focus {
+color: #2196F3;
 }
 
 .menu-container.is-open {
@@ -75,14 +81,71 @@
 }
 
 .mobile-menu {
+    width: 100%;
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.mobile-menu .link {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
+// .mobile-menu .link {
+//     display: block;
+//     padding: 10px;
+//     color: #fff;
+//     text-decoration: none;
+// }
+
+.mobilenavigation__list {
+    margin-bottom: 10px;
+    &>li:not(:last-child) {margin-bottom: 32px;}
+}
+
+.mobilenavigation__item {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    
+    &:hover, &:focus {color: #2196F3;}
+    
+}
+
+.mobilecontact {
+
+    margin-bottom: 64px;
+    &>li:not(:last-child) {margin-bottom: 32px;}
+
+    &__linktel {
+        font-weight: 500;
+            font-size: 34px;
+            line-height: 40px;
+                   
+            letter-spacing: 0.02em;
+        
+            color: var(--accent-color);
+    }
+
+    &__linkmail {
+        font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.02em;
+        
+            color: var(--color-body-second);
+    }
+}
+
+.mobilesocial {
+    display: flex;
+    gap: 20px;
+
+    &__link {
+        font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+                   
+            letter-spacing: 0.02em;
+        
+            color: #2196F3;
+    }
 }

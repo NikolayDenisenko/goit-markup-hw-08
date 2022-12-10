@@ -372,17 +372,15 @@ section {
   border-radius: 50%;
   outline: none;
 }
+.menu-toggle:hover, .menu-toggle:focus {
+  background-color: #2196F3;
+}
 
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
   }
 }
-.menu-toggle:hover,
-.menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
 .menu-container {
   position: fixed;
   top: 0;
@@ -390,7 +388,7 @@ section {
   width: 100vw;
   height: 100vh;
   padding: 32px;
-  background-color: #3f51b5;
+  background: #FFFFFF;
   z-index: 999;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
@@ -398,6 +396,10 @@ section {
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+.menu__mobile-close:hover, .menu__mobile-close:focus {
+  color: #2196F3;
 }
 
 .menu-container.is-open {
@@ -413,16 +415,63 @@ section {
 }
 
 .mobile-menu {
+  width: 100%;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.mobile-menu .link {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
+.mobilenavigation__list {
+  margin-bottom: 10px;
+}
+.mobilenavigation__list > li:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mobilenavigation__item {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.mobilenavigation__item:hover, .mobilenavigation__item:focus {
+  color: #2196F3;
+}
+
+.mobilecontact {
+  margin-bottom: 64px;
+}
+.mobilecontact > li:not(:last-child) {
+  margin-bottom: 32px;
+}
+.mobilecontact__linktel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.mobilecontact__linkmail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: var(--color-body-second);
+}
+
+.mobilesocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+.mobilesocial__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }
 
 .cap {
