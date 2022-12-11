@@ -31,7 +31,10 @@
         }
     
     @media screen and (min-width:1200px) {
-            position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        position: relative;
             background: #C4C4C4;
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Bg-hero.png);
             background-repeat: no-repeat;
@@ -62,6 +65,7 @@
     
     @media screen and (min-width:1200px) {
         
+
     
         }
 
@@ -88,6 +92,7 @@
     @media screen and (min-width:1200px) {
         font-size: 44px;
         line-height: 1.36;
+        
     }
 
 

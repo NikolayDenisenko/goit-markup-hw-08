@@ -54,14 +54,38 @@
 
 
 .features__list h3 {
-    margin-top: 0px;
-    margin-bottom: 10px;
+    
+    @media screen and (min-width:480px) {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    
+        font-weight: 700;
+        line-height: 1.14;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;}
 
-    font-weight: 700;
-    line-height: 1.14;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
+
+    @media screen and (min-width:768px) {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    
+        font-weight: 700;
+        line-height: 1.14;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;}
+
+    @media screen and (min-width:1200px) {
+        margin-top: 0px;
+            margin-bottom: 10px;
+        
+            font-weight: 700;
+            line-height: 1.14;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-align: left;
+    }
 }
 
 .features__list p {
