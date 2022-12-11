@@ -57,6 +57,7 @@
 
 .footer__contact {
     font-style: normal;
+    
 }
 
 .address{
@@ -74,7 +75,7 @@
     @media screen and (min-width:768px) {}
         
     @media screen and (min-width:1200px) {
-
+        align-items: baseline;
         &>li:not(:last-child) {
                 padding-bottom: 9px;
             }
@@ -144,7 +145,7 @@
         line-height: calc(16/14);
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    
+        text-align: left;
         color: #FFFFFF;}
 }
 
@@ -169,10 +170,10 @@
     
     @media screen and (min-width:1200px) {
         display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 20px;
-            
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+        align-items: baseline;    
     }
 }
 
@@ -235,7 +236,7 @@
     @media screen and (min-width:768px) {}
     
     @media screen and (min-width:1200px) {
-            
+            align-items: baseline;
             flex-direction: row;
             }
         }

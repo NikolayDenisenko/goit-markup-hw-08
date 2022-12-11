@@ -1333,6 +1333,11 @@ section {
   padding-bottom: 12px;
 }
 @media screen and (min-width: 1200px) {
+  .address {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
   .address > li:not(:last-child) {
     padding-bottom: 9px;
   }
@@ -1394,6 +1399,7 @@ section {
     line-height: 1.1428571429;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: left;
     color: #FFFFFF;
   }
 }
@@ -1436,6 +1442,9 @@ section {
             justify-content: center;
     gap: 10px;
     margin-top: 20px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 
@@ -1510,6 +1519,9 @@ section {
 }
 @media screen and (min-width: 1200px) {
   .subscribe {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
