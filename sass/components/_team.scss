@@ -45,9 +45,47 @@
 
 
 .team__item {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    
+    @media screen and (min-width:320px) {background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        width: 100%;}
+    
+        @media screen and (min-width:480px) {background: #FFFFFF;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+            width: 100%;}
+    
+    
+        @media screen and (min-width:768px) {background: #FFFFFF;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+            width: fit-content;    
+        }
+    
+        @media screen and (min-width:1200px) {background: #FFFFFF;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+            width:max-content;}
+}
+
+.team__img {
+    @media screen and (min-width:320px) {
+        width: 100%;
+        height: 100%;
+    }
+    
+        @media screen and (min-width:480px) {
+        width: 100%;
+        height: 100%;
+        }
+               
+        @media screen and (min-width:768px) {
+            width:270px;
+            height: 260px;
+        }
+        
+        @media screen and (min-width:1200px) {}
 }
 
 .team__info {
