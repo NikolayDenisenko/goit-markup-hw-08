@@ -183,12 +183,13 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 10px;
+            
             margin-bottom: 60px;
     
             &--bloc {
                 display: flex;
                 flex-direction: row;
+                gap: 10px;
             }
         }
 
@@ -197,11 +198,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        
         margin-bottom: 60px;
             &--bloc {
                     display: flex;
                     flex-direction: row;
+                    gap: 10px;
                 }
     }
 
