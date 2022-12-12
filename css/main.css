@@ -480,6 +480,15 @@ section {
 }
 
 .cap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   height: 400px;
   background: #C4C4C4;
@@ -497,6 +506,15 @@ section {
 }
 @media screen and (min-width: 768px) {
   .cap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: relative;
     height: 400px;
     background: #C4C4C4;
@@ -956,6 +974,7 @@ section {
 /* styles work - Чим ми займаємося */
 .work {
   padding-top: 0;
+  display: none;
 }
 @media screen and (min-width: 480px) {
   .work {
